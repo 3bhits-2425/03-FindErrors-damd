@@ -28,7 +28,7 @@ public class Paddle : MonoBehaviour {
         transform.position = paddlePos;
 	}
 
-    private float GetXPosition
+    private float GetXPosition()
     {
         if (theGameSession.IsAutoPlayEnabled())
         {

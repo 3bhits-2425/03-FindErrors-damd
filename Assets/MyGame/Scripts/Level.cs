@@ -31,7 +31,7 @@ public class Level : MonoBehaviour {
 
     private void LoadEndScreen()
     {
-        if (sceneLoader.IsLastPlayScene)
+        if (sceneLoader.IsLastPlayScene())
         {
             sceneLoader.LoadCongrats();
         }
